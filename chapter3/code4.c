@@ -12,7 +12,8 @@ void Delay(unsigned int xms)   //@12.000MHz
         {
             whlie (--j);
         } while (--i);
-        xms--;
+        xms--;}
+}
 void main(){
     unsigned char LEDNum = 0;
     while(1){
